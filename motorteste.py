@@ -2,8 +2,8 @@ import RPi.GPIO as GPIO
 import time
 
 # Pinos GPIO para controle do motor
-DIR_PIN = 29  # Pino de direção
-STEP_PIN = 27  # Pino de passo
+DIR_PIN = 27  # Pino de direção
+STEP_PIN = 29  # Pino de passo
 DELAY = 0.001  # Intervalo entre os passos, ajusta a velocidade
 
 # Configuração dos pinos GPIO
